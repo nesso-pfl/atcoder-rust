@@ -1,0 +1,12 @@
+[package]
+name = "abc106"
+version = "0.1.0"
+authors = ["nesso <32949286+nesso-pfl@users.noreply.github.com>"]
+edition = "2018"
+
+# dependencies added to new project
+[dependencies]
+
+[profile.release]
+lto = true
+panic = 'abort'
